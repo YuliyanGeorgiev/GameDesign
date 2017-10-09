@@ -3,7 +3,7 @@ guid: 2d882ac8302dd5943891a803566ea69b
 timeCreated: 1474722825
 licenseType: Store
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: Bip002
     100002: Bip01 Footsteps001
@@ -95,6 +95,7 @@ ModelImporter:
     400086: //RootNode
     7400000: SmallDogsRun
     9500000: //RootNode
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -102,11 +103,26 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Bip01 Spine003' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Bip01 Spine004' has translation
+      animation that will be discarded.\n\t'Bip01 Spine005' has translation animation
+      that will be discarded.\n\t'Bone003' has translation animation that will be
+      discarded.\n\t'Bone003' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Bip01 L Clavicle001' has translation animation that
+      will be discarded.\n\t'Bip01 R Clavicle001' has translation animation that will
+      be discarded.\n\t'Bip01 L Thigh001' has translation animation that will be discarded.\n\t'Bip01
+      L HorseLink001' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Bip01 R Thigh001' has translation animation that
+      will be discarded.\n\t'Bip01 R HorseLink001' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
@@ -115,6 +131,7 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: SmallDogsRun
@@ -271,7 +288,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -287,9 +307,11 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -300,9 +322,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
