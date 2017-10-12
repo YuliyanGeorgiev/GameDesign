@@ -19,13 +19,18 @@ public class AnimController : MonoBehaviour {
         bool isPoopingPressed = Input.GetKeyDown("r");
         anim.SetBool("isPooping", isPoopingPressed);
 
+
         //Set walking animation
         bool isWalkingPressed = Input.GetKey("w");
         anim.SetBool("isWalking", isWalkingPressed);
 
-        //Set walking animation
+        //Set jumping animation
         bool isJumpingPressed = Input.GetKeyDown("space");
         anim.SetBool("isJumping", isJumpingPressed);
+
+        //Set eating animation
+        bool isEatingPressed = Input.GetKeyDown("e");
+        anim.SetBool("isEating", isEatingPressed);
 
     }
 }
