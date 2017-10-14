@@ -68,7 +68,7 @@ GameObject:
   - component: {fileID: 114159894533396536}
   m_Layer: 0
   m_Name: Pug
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1546,6 +1546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d424f7c1846345e42a136b9df226b3b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  isEatingPressed: 0
 --- !u!114 &114597557172738400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1570,6 +1572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Poop: {fileID: 1022083866591132, guid: fdbdfd9892157c94d89817a204815389, type: 2}
   countText: {fileID: 0}
+  goEat: {fileID: 0}
+  pug: {fileID: 0}
 --- !u!124 &124807158071890832
 Behaviour:
   m_ObjectHideFlags: 1

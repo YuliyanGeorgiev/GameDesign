@@ -42,9 +42,23 @@ public class SpawnPoop : MonoBehaviour {
         Instantiate(Poop, transform.position, transform.rotation);
     }
 
+    // Set number of poops
     void SetCount()
     {
         countText.text = "Poop: " + poopCount.ToString();
     }
+
+    // Detect food and add 3 poops
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Food"))
+        {
+            Destroy(other.gameObject);
+            poopCount += 3;
+            SetCount();
+            goEat.text = "";
+        }
+    }
+
 }
 
